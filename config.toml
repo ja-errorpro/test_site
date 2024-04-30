@@ -6,3 +6,8 @@ timeZone="Asia/Taipei"
 
 [paramalinks]
 posts="/posts/:year/:filename/"
+
+[[menu.main]]
+name = "主頁"
+url = "/"
+weight = 1
