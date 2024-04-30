@@ -1,11 +1,11 @@
 baseURL = '/'
 languageCode = 'zh-Hant-TW'
 title = 'Hugo Site Demo - ja-errorpro'
-theme="PaperMod"
-timeZone="Asia/Taipei"
+theme = "PaperMod"
+timeZone = "Asia/Taipei"
 
-[paramalinks]
-posts="/posts/:year/:filename/"
+[permalinks]
+posts = "/posts/:year/:filename/"
 
 [[menu.main]]
 name = "主頁"
