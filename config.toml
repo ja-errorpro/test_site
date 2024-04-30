@@ -1,7 +1,7 @@
 baseURL = '/'
 languageCode = 'zh-Hant-TW'
 title = 'Hugo Site Demo - ja-errorpro'
-theme="papermod"
+theme="PaperMod"
 timeZone="Asia/Taipei"
 
 [paramalinks]

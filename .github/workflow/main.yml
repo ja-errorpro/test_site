@@ -21,7 +21,7 @@ jobs:
           extended: true  # 如果是使用extended版本的務必取消註解。
 
       - name: Build
-        run: hugo --minify
+        run: git submodule add --force --depth=1 https://github.com/adityatelange/hugo-PaperMod themes/PaperMod && git submodule update --init --recursive && hugo --minify
       
       #- name: Setdomain
       #  run: echo ja-errorpro.codes > ./public/CNAME
