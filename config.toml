@@ -1,0 +1,8 @@
+baseURL = '/'
+languageCode = 'zh-Hant-TW'
+title = 'Hugo Site Demo - ja-errorpro'
+theme="papermod"
+timeZone="Asia/Taipei"
+
+[paramalinks]
+posts="/posts/:year/:filename/"
